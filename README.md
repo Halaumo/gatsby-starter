@@ -1,0 +1,1 @@
+It's my react mono-repository
