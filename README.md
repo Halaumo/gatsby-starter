@@ -1,1 +1,1 @@
-It's my react mono-repository
+Git clone this repository and install dependencies with yarn/npm
