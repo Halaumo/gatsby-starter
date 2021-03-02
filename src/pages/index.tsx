@@ -1,10 +1,13 @@
 import React from 'react'
 import image from '@/images/icon.png'
+import Header from '@/components/header'
 
 const IndexPage = (): JSX.Element => {
   return (
     <>
-      <h1>HELLO WORLD</h1>
+      <Header />
+      <h1>Home page</h1>
+      <h2>HELLO WORLD</h2>
       <img src={image} alt="no image"/>
     </>
   )

@@ -15,6 +15,12 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-layout',
+      options: {
+        component: require.resolve('./src/components/changePage.tsx'),
+      },
+    },
     // if in folder has no image remove gatsby-source-filesystem
     {
       resolve: `gatsby-source-filesystem`,
