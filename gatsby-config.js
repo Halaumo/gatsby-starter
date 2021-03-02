@@ -4,9 +4,7 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby react monorepository`,
-    description: `Gatsby configuration.`,
-    author: `Artem`,
+    siteUrl: process.env.SITE_URL,
   },
   plugins: [
     `gatsby-plugin-image`,
