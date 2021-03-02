@@ -14,6 +14,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    'gatsby-plugin-sitemap',
     // if in folder has no image remove gatsby-source-filesystem
     {
       resolve: `gatsby-source-filesystem`,
