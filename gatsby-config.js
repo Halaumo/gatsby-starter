@@ -14,6 +14,22 @@ module.exports = {
     `gatsby-plugin-sharp`,
     'gatsby-plugin-sitemap',
     {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Blogs',
+        short_name: 'Blogs',
+        lang: 'en',
+        start_url: '/',
+        icon: 'static/favicon.svg',
+        background_color: `#663399`,
+        theme_color: `#fff`,
+        display: `minimal-ui`,
+        icon_options: {
+          purpose: `any maskable`,
+        },
+      },
+    },
+    {
       resolve: 'gatsby-plugin-layout',
       options: {
         component: require.resolve('./src/components/changePage.tsx'),
